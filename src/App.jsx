@@ -102,7 +102,7 @@ function App() {
                     Tic Tac Toe Game
                       <i className="fa-solid fa-arrow-up-right-from-square ml-2"></i>
                     </a>
-                    <p>A responsive web app replicating Spotify's interface and functionality</p>
+                    <p>A classic Tic Tac Toe game with interactive gameplay</p>
                   </div>
 
         </div>
