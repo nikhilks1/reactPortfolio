@@ -74,7 +74,7 @@ function App() {
                     Nike inspired landing page
                       <i className="fa-solid fa-arrow-up-right-from-square ml-2"></i>
                     </a>
-                    <p>A sleek landing page inspired by Nike, optimized for all devices.</p>
+                    <p>A sleek landing page inspired by Nike, optimized for all devices</p>
                   </div>
   
                   {/* project 3 */}
@@ -83,7 +83,7 @@ function App() {
                       Spotify Clone
                       <i className="fa-solid fa-arrow-up-right-from-square ml-2"></i>
                     </a>
-                    <p>A responsive web app replicating Spotify's interface and functionality.</p>
+                    <p>A responsive web app replicating Spotify's interface and functionality</p>
                   </div>
   
                   {/* project 4 */}
@@ -92,7 +92,7 @@ function App() {
                     Color Picker
                       <i className="fa-solid fa-arrow-up-right-from-square ml-2"></i>
                     </a>
-                    <p>A tool to select and copy colors with a user-friendly interface.</p>
+                    <p>A tool to select and copy colors with a user-friendly interface</p>
                   </div>
 
                   
@@ -102,19 +102,9 @@ function App() {
                     Tic Tac Toe Game
                       <i className="fa-solid fa-arrow-up-right-from-square ml-2"></i>
                     </a>
-                    <p>A responsive web app replicating Spotify's interface and functionality.</p>
+                    <p>A responsive web app replicating Spotify's interface and functionality</p>
                   </div>
 
-
-                   
-                  {/* project 6 */}
-                  {/* <div className='project mt-4'>
-                    <a href="https://react-yarn-tic-tac-toe-game.vercel.app" target='_blank' rel="noopener noreferrer"  className='logo'>
-                    Tech Mart
-                      <i className="fa-solid fa-arrow-up-right-from-square ml-2"></i>
-                    </a>
-                    <p>A responsive Spotify clone that .</p>
-                  </div> */}
         </div>
   
         <div className='brandIcons mt-8 text-2xl'>
