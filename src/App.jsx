@@ -2,7 +2,7 @@ import './App.css'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import resume from './assets/resume.pdf'
 import { useEffect, useState } from 'react'
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import BarLoader from "react-spinners/BarLoader";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2700); 
+    }, 1200); 
 
     return () => clearTimeout(timer); 
   }, []);
@@ -23,19 +23,14 @@ function App() {
    
     return (
       <div className="flex flex-col justify-center items-center min-h-screen bg-black">
-        <ClimbingBoxLoader
+        <BarLoader
           color={"#ffffff"}
           loading={loading}
           size={20}
           aria-label="Loading Spinner"
           data-testid="loader"
         />
-        <h1 className="text-white mt-4 text-center text-xl">Loading<span>
-             <span className="dots">
-                <span>.</span><span>.</span><span>.</span>
-              </span>
-           </span>
-        </h1> 
+     
         
       </div>
       
